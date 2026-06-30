@@ -25,7 +25,7 @@ public partial class Order
 
     public virtual User? DeliveryWorker { get; set; }
 
-    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
+    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>(); // 1 order có nhiều orderdetal 
 
     public virtual User? Saler { get; set; }
 }

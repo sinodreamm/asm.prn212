@@ -23,13 +23,14 @@ namespace AsnPrn212
             InitializeComponent();
         }
         public static UserDAO userDAO = new UserDAO();
+        public static OrderDAO orDAO = new OrderDAO() ;
         private void managerOrder_Click(object sender, RoutedEventArgs e)
         {
         }
 
         private void managerAccount_Click(object sender, RoutedEventArgs e)
         {
-
+            Window_Loaded(sender, e);
         }
 
         private void reportStatic_Click(object sender, RoutedEventArgs e)
@@ -45,6 +46,17 @@ namespace AsnPrn212
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             dgAccount.ItemsSource = userDAO.getAllUser();
+            dgOrder.ItemsSource = orDAO.getorder();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Window_Loaded(sender, e);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window_Loaded(sender, e);
         }
     }
 }

@@ -11,12 +11,24 @@ namespace DAL.ViewModels
 {   
     public class UserDAO
     {
-        public UserDAO() { }
+        private FruitShopDbContext _context;
+
+        public UserDAO()
+        {
+            _context = new FruitShopDbContext();
+            _context.Database.EnsureCreated();
+        }
+
+        public UserDAO(FruitShopDbContext context)
+        {
+            _context = context;
+            _context.Database.EnsureCreated();
+        }
+
         public List<User> getAllUser()
             
         {   
             List<User> list = new List<User>();
-            using FruitShopDbContext _context = new FruitShopDbContext();
             try
             {
                list = _context.Users.ToList();

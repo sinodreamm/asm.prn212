@@ -1,12 +1,96 @@
 ﻿<Window x:Class="AsnPrn212.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AsnPrn212"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="ControlApp" Height="600" Width="900" WindowStartupLocation="CenterScreen"
+        Loaded="Window_Loaded">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="0" TabStripPlacement="Left">
+
+            <TabItem Header="Manager Account" Padding="15,10">
+                <Grid Margin="15,5,5,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,15">
+                        <TextBlock Text="Manager Account" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Content="Reload" Padding="15,5" Margin="10,0,0,0"/>
+                            <Button Name="btnAddUser" Content="Add User" Padding="15,5" Margin="10,0,0,0"/>
+                            <Button Name="btnUpdateUser" Content="Update" Padding="15,5" Margin="10,0,0,0"/>
+                            <Button Name="btnDeleteUser" Content="Delete User" Padding="15,5" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </Grid>
+
+
+                    <DataGrid Grid.Row="1" 
+                              Name="dgAccount" 
+                              AutoGenerateColumns="False" 
+                              CanUserAddRows="False" 
+                              
+                              IsReadOnly="True">
+                        <DataGrid.Columns>
+
+                            <DataGridTextColumn Header="Full Name" Binding="{Binding FullName}" Width="*"/>
+
+                            <DataGridTextColumn Header="Phone" Binding="{Binding Phone}" Width="*"/>
+
+                            <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="200"/>
+
+                        </DataGrid.Columns>
+
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Manager Order" Padding="15,10">
+                <Grid Margin="15,5,5,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,15">
+                        <TextBlock Text="Manager Order" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                            <Button Content="Reload" Padding="15,5" Margin="10,0,0,0"/>
+                            <Button Name="btnAddOrder" Content="Add Order" Padding="15,5" Margin="10,0,0,0"/>
+                            <Button Name="btnDeleteOrder" Content="Delete Order" Padding="15,5" Margin="10,0,0,0"/>
+                        </StackPanel>
+                    </Grid>
+
+                    <DataGrid Grid.Row="1" Name="dgOrder" AutoGenerateColumns="True" CanUserAddRows="False"/>
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="Report Static" Padding="15,10">
+                <Grid Margin="15,5,5,5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Margin="0,0,0,15">
+                        <TextBlock Text="Report &amp; Statistics" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+                        <Button Content="Export Report" Padding="15,5" HorizontalAlignment="Right"/>
+                    </Grid>
+
+                    <DataGrid Grid.Row="1" Name="dgReport" AutoGenerateColumns="True" CanUserAddRows="False">
+
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+        <Button Grid.Row="1" Name="btnLogout" Content="Log Out" Padding="10" Margin="5,10,0,0" HorizontalAlignment="Left" Width="110"/>
 
     </Grid>
 </Window>

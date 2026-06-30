@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\PRN212\\asm.prn212\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{668CF287-4D42-41EA-A421-20B73593EB02}|AsnPrn212\\AsnPrn212.csproj|d:\\prn212\\asm.prn212\\asnprn212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{668CF287-4D42-41EA-A421-20B73593EB02}|AsnPrn212\\AsnPrn212.csproj|solutionrelative:asnprn212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6BC4D53C-8E0B-4F19-8230-6EA8B688041F}|DAL\\DAL.csproj|d:\\prn212\\asm.prn212\\dal\\viewmodels\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC4D53C-8E0B-4F19-8230-6EA8B688041F}|DAL\\DAL.csproj|solutionrelative:dal\\viewmodels\\userdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC4D53C-8E0B-4F19-8230-6EA8B688041F}|DAL\\DAL.csproj|d:\\prn212\\asm.prn212\\dal\\models\\fruitshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC4D53C-8E0B-4F19-8230-6EA8B688041F}|DAL\\DAL.csproj|solutionrelative:dal\\models\\fruitshopdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|d:\\prn212\\asm.prn212\\asnprn212\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|solutionrelative:asnprn212\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|d:\\prn212\\asm.prn212\\asnprn212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|solutionrelative:asnprn212\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BC4D53C-8E0B-4F19-8230-6EA8B688041F}|DAL\\DAL.csproj|d:\\prn212\\asm.prn212\\dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BC4D53C-8E0B-4F19-8230-6EA8B688041F}|DAL\\DAL.csproj|solutionrelative:dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|d:\\prn212\\asm.prn212\\asnprn212\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|solutionrelative:asnprn212\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|d:\\prn212\\asm.prn212\\asnprn212\\asnprn212.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|solutionrelative:asnprn212\\asnprn212.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|d:\\prn212\\asm.prn212\\asnprn212\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|solutionrelative:asnprn212\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|d:\\prn212\\asm.prn212\\asnprn212\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5016C5A7-D895-1398-DB8D-CC6CFD177BD2}|AsnPrn212\\AsnPrn212.csproj|solutionrelative:asnprn212\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\PRN212\\asm.prn212\\AsnPrn212\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "AsnPrn212\\MainWindow.xaml.cs",
               "ToolTip": "D:\\PRN212\\asm.prn212\\AsnPrn212\\MainWindow.xaml.cs",
               "RelativeToolTip": "AsnPrn212\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T04:43:31.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\DAL\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\User.cs",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\DAL\\Models\\User.cs",
+              "RelativeToolTip": "DAL\\Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T04:28:47.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FruitShopDbContext.cs",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\DAL\\Models\\FruitShopDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\FruitShopDbContext.cs",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\DAL\\Models\\FruitShopDbContext.cs",
+              "RelativeToolTip": "DAL\\Models\\FruitShopDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA7wB4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T04:18:46.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserDAO.cs",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\DAL\\ViewModels\\UserDAO.cs",
+              "RelativeDocumentMoniker": "DAL\\ViewModels\\UserDAO.cs",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\DAL\\ViewModels\\UserDAO.cs*",
+              "RelativeToolTip": "DAL\\ViewModels\\UserDAO.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T04:18:32.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\AsnPrn212\\appsettings.json",
+              "RelativeDocumentMoniker": "AsnPrn212\\appsettings.json",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\AsnPrn212\\appsettings.json",
+              "RelativeToolTip": "AsnPrn212\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-30T04:15:32.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\AsnPrn212\\App.xaml.cs",
+              "RelativeDocumentMoniker": "AsnPrn212\\App.xaml.cs",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\AsnPrn212\\App.xaml.cs",
+              "RelativeToolTip": "AsnPrn212\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-30T03:12:00.657Z",
+              "WhenOpened": "2026-06-30T04:14:12.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AsnPrn212",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\AsnPrn212\\AsnPrn212.csproj",
+              "RelativeDocumentMoniker": "AsnPrn212\\AsnPrn212.csproj",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\AsnPrn212\\AsnPrn212.csproj",
+              "RelativeToolTip": "AsnPrn212\\AsnPrn212.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-30T04:12:56.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\AsnPrn212\\App.xaml",
+              "RelativeDocumentMoniker": "AsnPrn212\\App.xaml",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\AsnPrn212\\App.xaml",
+              "RelativeToolTip": "AsnPrn212\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-30T04:12:47.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\asm.prn212\\AsnPrn212\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "AsnPrn212\\MainWindow.xaml",
+              "ToolTip": "D:\\PRN212\\asm.prn212\\AsnPrn212\\MainWindow.xaml",
+              "RelativeToolTip": "AsnPrn212\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-30T03:12:02.742Z",
               "EditorCaption": ""
             }
           ]

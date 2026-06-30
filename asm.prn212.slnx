@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="AsnPrn212/AsnPrn212.csproj" />
+  <Project Path="DAL/DAL.csproj" Id="6bc4d53c-8e0b-4f19-8230-6ea8b688041f" />
 </Solution>

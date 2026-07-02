@@ -36,5 +36,46 @@ namespace DAL.ViewModels
             }
             return list;
         }
+        public void AddOrder(Order order)
+        {
+            try
+            {
+                using FruitShopDbContext context = new FruitShopDbContext();
+                context.Orders.Add(order);
+                context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public void UpdateOrder(Order order)
+        {
+            try
+            {
+                using FruitShopDbContext context = new FruitShopDbContext();
+                context.Orders.Update(order);
+                context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public void DeleteOrder(Order order)
+        {
+            try
+            {
+                using FruitShopDbContext context = new FruitShopDbContext();
+                context.Orders.Remove(order);
+                context.SaveChanges();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }

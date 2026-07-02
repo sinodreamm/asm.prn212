@@ -1,4 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Resource Include="favicon.ico" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj" />
@@ -10,12 +14,17 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Icon\" />
+  </ItemGroup>
+
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net8.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>

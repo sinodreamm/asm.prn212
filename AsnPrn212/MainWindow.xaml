@@ -23,9 +23,9 @@
                         <TextBlock Text="Manager Account" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                             <Button Content="Reload" Padding="15,5" Margin="10,0,0,0" Click="Button_Click"/>
-                            <Button Name="btnAddUser" Content="Add User" Padding="15,5" Margin="10,0,0,0"/>
-                            <Button Name="btnUpdateUser" Content="Update" Padding="15,5" Margin="10,0,0,0"/>
-                            <Button Name="btnDeleteUser" Content="Delete User" Padding="15,5" Margin="10,0,0,0"/>
+                            <Button Name="btnAddUser" Content="Add User" Padding="15,5" Margin="10,0,0,0" Click="btnAddUser_Click"/>
+                            <Button Name="btnUpdateUser" Content="Update" Padding="15,5" Margin="10,0,0,0" Click="btnUpdateUser_Click"/>
+                            <Button Name="btnDeleteUser" Content="Delete User" Padding="15,5" Margin="10,0,0,0" Click="btnDeleteUser_Click"/>
                         </StackPanel>
                     </Grid>
 
@@ -66,7 +66,7 @@
                         <TextBlock Text="Manager Order" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                             <Button Content="Reload" Padding="15,5" Margin="10,0,0,0" Click="Button_Click_1"/>
-                            <Button Name="btnAddOrder" Content="Add Order" Padding="15,5" Margin="10,0,0,0"/>
+                            <Button Name="btnAddOrder" Content="Add Order" Padding="15,5" Margin="10,0,0,0" Click="btnAddOrder_Click"/>
                             <Button Name="btnDeleteOrder" Content="Delete Order" Padding="15,5" Margin="10,0,0,0"/>
                         </StackPanel>
                     </Grid>
@@ -79,12 +79,10 @@
                             <DataGridTextColumn Header="Người Bán" Binding="{Binding Saler.FullName}" Width="*"/>
                             <DataGridTextColumn Header="Người Giao" Binding="{Binding DeliveryWorker.FullName}" Width="*"/>
                             <DataGridTextColumn Header="Ngày Đặt" Binding="{Binding OrderDate, StringFormat=dd/MM/yyyy HH:mm}" Width="150"/>
-                            <DataGridTextColumn Header="Tổng Tiền" Binding="{Binding TotalAmount, StringFormat=C0, ConverterCulture=vi-VN}" Width="150"/>
+                            <DataGridTextColumn Header="Tổng Tiền" Binding="{Binding TotalAmount, StringFormat=C0}" Width="150"/>
                             <DataGridTextColumn Header="Trạng Thái" Binding="{Binding Status}" Width="120"/>
                             <DataGridTextColumn Header="Thanh Toán" Binding="{Binding PaymentMethod}" Width="120"/>
                         </DataGrid.Columns>
-
-                        <!-- Binding phần xổ xuống (RowDetailsTemplate) để hiển thị chi tiết sản phẩm đã mua -->
                         <DataGrid.RowDetailsTemplate>
                             <DataTemplate>
                                 <Border Margin="20,10,10,10" Padding="10" Background="#f9f9f9" BorderBrush="LightGray" BorderThickness="1" CornerRadius="5">
@@ -95,7 +93,7 @@
                                                 <!-- Lấy Tên sản phẩm từ bảng Product -->
                                                 <DataGridTextColumn Header="Tên Sản Phẩm" Binding="{Binding Product.Name}" Width="200"/>
                                                 <DataGridTextColumn Header="Số Lượng" Binding="{Binding Quantity}" Width="100"/>
-                                                <DataGridTextColumn Header="Đơn Giá" Binding="{Binding UnitPrice, StringFormat=C0, ConverterCulture=vi-VN}" Width="150"/>
+                                                <DataGridTextColumn Header="Đơn Giá" Binding="{Binding UnitPrice, StringFormat=C0}" Width="150"/>
                                                 <!-- Tính thành tiền từng món -->
                                             </DataGrid.Columns>
                                         </DataGrid>
